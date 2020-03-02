@@ -14,10 +14,10 @@
 }
 
 body {
-  background: var(--colorGrey);
+  background: var(--colorBlack);
   font-family: 'OpenSans', sans-serif;
   font-size: 1rem;
-  color: var(--colorBlack);
+  color: var(--colorWhite);
 }
 
 
