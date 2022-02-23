@@ -79,7 +79,7 @@ var halfmoon = {
         this.createCookie(name, "", -1);
     },
 
-    // Toggle light/dark mode 
+    // Toggle light/dark mode
     toggleDarkMode: function() {
         if (document.body.classList.contains("dark-mode")) {
             document.body.classList.remove("dark-mode");
@@ -371,7 +371,7 @@ function halfmoonOnDOMContentLoaded() {
 
             // Call the click handler method to handle any logic set by the user in their projects to handle clicks
             halfmoon.clickHandler(eventCopy);
-        }, 
+        },
         false
     );
 
