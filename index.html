@@ -6,23 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
   <meta name="viewport" content="width=device-width" />
-
   <!-- Favicon and title -->
   <link rel="icon" href="path/to/fav.png">
   <title>Starter template - Halfmoon</title>
-
   <!-- Halfmoon CSS -->
   <link href="css/halfmoon-variables.min.css" rel="stylesheet" />
   <link href="css/halfmoon.min.css" rel="stylesheet" />
-  <link href="css/main-stylesheet.css" rel="stylesheet" />
-
-
-  <!--
-    Or,
-    Use the following (no variables, supports IE11):
-    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
-    Learn more: https://www.gethalfmoon.com/docs/customize/#notes-on-browser-compatibility
-  -->
 </head>
 <body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
   <!-- Modals go here -->
@@ -37,18 +26,40 @@
 
     <!-- Sidebar start -->
     <div class="sidebar">
-      <!-- Reference: https://www.gethalfmoon.com/docs/sidebar -->
+      <div class="sidebar-menu">
+        <a href="###" class="sidebar-brand">
+          <img src="..." alt="..."> DCR Logo </a>
+          <h4 class="sidebar-title">Handy Links</h4>
+          <div class="sidebar-divider"></div>
+          <a href="#" class="sidebar-link">SimplerSport</a>
+          <a href="https://usarugby.sportlomo.com/" class="sidebar-link">Manage Your CIPP</a>
+          <a href="https://groups.google.com/u/1/a/dcrevolution.com/g/fall-2021-players" class="sidebar-link">Google Group</a>
+          <a href="https://www.dcrevolution.com/schedule" class="sidebar-link">Schedule</a>
+          <a href="https://www.dcrevolution.com" class="sidebar-link">DCRevolution.com</a>
+          <a href="https://www.instagram.com/dcrevolutionrugby/" class="sidebar-link">DC Rev on IG</a>
+          <a href="https://www.facebook.com/dcrevolutionrugby/" class="sidebar-link">DC Rev on FB</a>
+
+          <br />
+          <h4 class="sidebar-title">More Info</h5>
+          <div class="sidebar-divider"></div>
+          <a href="#" class="sidebar-link">CIPPing</a>
+          <a href="#" class="sidebar-link">Messenger</a>
     </div>
+  </div>
     <!-- Sidebar end -->
 
     <!-- Content wrapper start -->
     <div class="content-wrapper">
-      <!--
-        Add your page's main content here
-        Examples:
-        1. https://www.gethalfmoon.com/docs/content-and-cards/#building-a-page
-        2. https://www.gethalfmoon.com/docs/grid-system/#building-a-dashboard
-      -->
+      <div class="container">
+        <div class="content">
+          <h1 class="content-title">DC Revolution Player Resource Library</h1>
+        </div>
+        <div class="card w-400 mw-full">
+          <h2 class="card-title">Update SimplerSport</h2>
+          <p class="text-left">SimplerSport is a tool for tracking player availability for practices and games. It's incredibly important for our coaches. Please keep your SimplerSport availability up to date at all times (including any last-minute schedule changes), and use the "add note" feature to include any additional information (you're going to be late, you're not able to do contact, etc).
+          </p>
+        </div>
+      </div>
     </div>
     <!-- Content wrapper end -->
 
@@ -56,6 +67,6 @@
   <!-- Page wrapper end -->
 
   <!-- Halfmoon JS -->
-  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+  <script src="js/halfmoon.min.js"></script>
 </body>
 </html>
