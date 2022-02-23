@@ -1,12 +1,6 @@
 
-:root {
-    --bgColor: #555555;
-    --textColor: #FFFFFF;
-}
   html, body {
-    color: --textColor;
-background-color: --bgColor;
+    color: #FFFFFF;
+background-color: #555555;
+padding: 1rem;
   }
-
-    .rev-container {
-    }
