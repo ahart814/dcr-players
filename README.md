@@ -1,3 +1,3 @@
 ## Hello!
 
-Access the portal at https://players.dcrevolution.com
+Access the portal at https://resources.dcrevolution.com
