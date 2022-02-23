@@ -3,9 +3,10 @@
     --bgColor: #555555;
     --textColor: #FFFFFF;
 }
-  html, body {}
+  html, body {
+    color: --textColor;
+background-color: --bgColor;
+  }
 
     .rev-container {
-      background-color: --bgColor;
-      color: --textColor;
     }
